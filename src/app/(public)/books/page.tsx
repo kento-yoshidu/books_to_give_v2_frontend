@@ -1,0 +1,5 @@
+export default function BooksPage() {
+  return (
+    <h1>本一覧</h1>
+  );
+}
