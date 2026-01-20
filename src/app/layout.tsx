@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import styles from "./layout.module.css";
 import "./globals.css";
 import Header from "./_components/Header";
+import Footer from "./_components/Footer";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
@@ -12,6 +13,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
           {children}
         </div>
+        <Footer />
       </body>
     </html>
   );

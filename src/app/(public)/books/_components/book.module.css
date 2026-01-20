@@ -1,0 +1,49 @@
+.imageContainer {
+  width: 150px;
+  box-shadow: 0 0 3px 3px #ddd;
+}
+
+.imageContainer > span {
+  position: unset !important;
+}
+
+.imageContainer .image {
+  position: relative !important;
+  width: 100% !important;
+  height: unset !important;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 48%;
+  border-bottom: 2px solid #ddd;
+
+  .bookTitle {
+    font-size: 24px;
+  }
+
+  .tags {
+    h3 {
+      margin-bottom: 8px;
+      font-size: 20px;
+    }
+
+    .tagList {
+      display: flex;
+      gap: 8px;
+    }
+  }
+
+  .star {
+    font-size: 20px;
+  }
+
+  .memo {
+    h3 {
+      margin-bottom: 8px;
+      font-size: 20px;
+    }
+  }
+}

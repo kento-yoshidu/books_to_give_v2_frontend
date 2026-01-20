@@ -1,0 +1,23 @@
+.wrapper {
+  padding: 20px 0;
+  border: 1px solid #ccc;
+
+  .title {
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  .list {
+    margin: 20px 0;
+
+    li {
+      margin-bottom: 8px;
+      font-size: 18px;
+
+    }
+
+    .dep {
+      margin-left: 20px;
+    }
+  }
+}

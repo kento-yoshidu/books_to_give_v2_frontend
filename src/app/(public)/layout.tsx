@@ -1,4 +1,6 @@
-import { ReactNode } from "react"
+import Technology from "./_components/Technology";
+import styles from "./layout.module.css";
+import type { ReactNode } from "react"
 
 type Props = {
   children: ReactNode;
@@ -6,10 +8,10 @@ type Props = {
 
 export default function PublicLayout({ children }: Props) {
   return (
-    <>
-      <p>更新日 : <time dateTime="2024-03-23">2024年3月23日</time></p>
-
+    <div className={styles.wrapper}>
       {children}
-    </>
-  )
+
+      <Technology />
+    </div>
+  );
 }
