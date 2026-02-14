@@ -1,6 +1,13 @@
 .header {
-  .headerTitle {
+  padding: 36px 0;
+
+  .title {
+    margin-bottom: 12px;
     font-size: 36px;
     font-weight: 400;
+  }
+
+  .date {
+    font-size: 18px;
   }
 }
